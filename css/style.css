@@ -25,22 +25,28 @@ body {
   box-shadow: 10px 5px 5px #e3e3e3;
 }
 
-.hero {
-  padding-top: 0.64rem;
+.hero,
+.hero2,
+.hero3 {
+  padding: 0.64rem;
 }
 
 .hero_desc,
-.gif1 {
+.gif1,
+.img1 {
   margin: 0.48rem 0.36rem;
 }
 
-.gif1 {
+.gif1,
+.img1 {
   border-radius: 12px;
 }
 
-.recipes_list {
-  padding-bottom: 2rem;
+.recipes_list,
+.text_decor {
+  padding-bottom: 0.6rem;
   list-style-type: none;
+  text-decoration: none;
 }
 
 .recipes_link {
