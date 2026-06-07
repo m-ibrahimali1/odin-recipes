@@ -13,22 +13,36 @@ body {
   width: 100vw;
   height: 100vw;
   text-align: center;
+  color: #132743;
 }
 
 .bg1 {
-  background-color: #ffcbcb;
+  background-color: #9fd3c7;
   width: 75vw;
   height: auto;
   margin: 1.2rem auto;
   border-radius: 20px;
-  box-shadow: 10px 5px 5px pink;
+  box-shadow: 10px 5px 5px #e3e3e3;
 }
 
-.hero,
+.hero {
+  padding-top: 0.64rem;
+}
+
+.hero_desc,
 .gif1 {
-  margin: 4px;
+  margin: 0.48rem 0.36rem;
 }
 
 .gif1 {
   border-radius: 12px;
+}
+
+.recipes_list {
+  padding-bottom: 2rem;
+  list-style-type: none;
+}
+
+.recipes_link {
+  text-decoration: none;
 }
