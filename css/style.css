@@ -2,10 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* outline: 1px solid red; */
 }
 
 body {
   font-size: 1.2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 10px;
+  margin: 10px auto;
+  width: 100vw;
+  height: 100vw;
+  text-align: center;
+}
+
+.bg1 {
+  background-color: #ffcbcb;
+  width: 75vw;
+  height: auto;
+  margin: 1.2rem auto;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px pink;
+}
+
+.hero,
+.gif1 {
+  margin: 4px;
+}
+
+.gif1 {
+  border-radius: 12px;
 }
